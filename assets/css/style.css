@@ -525,6 +525,12 @@ body{
     color:#a7c53a;
 }
 
+.numero i{
+    color:#a7c53a;
+    font-size:34px;
+    margin-bottom:15px;
+}
+
 /* ONDE ATUAMOS */
 
 .onde-atuamos{
@@ -640,4 +646,33 @@ body{
         text-align:center;
     }
 
+}
+
+.icone-card{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:#f4f4f4;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:25px;
+}
+
+.icone-card i{
+    font-size:30px;
+    color:#a7c53a;
+}
+.atuamos-grid i{
+    font-size:42px;
+    color:#062b5b;
+    display:block;
+    margin-bottom:15px;
+}
+
+.atuamos-grid h4{
+    color:#062b5b;
+    font-size:16px;
+    font-weight:600;
+    line-height:1.4;
 }
