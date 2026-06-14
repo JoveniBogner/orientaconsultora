@@ -482,14 +482,14 @@ body{
     display:grid;
     grid-template-columns:repeat(4,1fr);
     gap:25px;
+    align-items:stretch;
 }
 
 .ajuda-card{
     background:white;
     border:1px solid #ececec;
     border-radius:14px;
-    padding:35px;
-    min-height:260px;
+    padding:30px;
     transition:.3s;
 }
 
