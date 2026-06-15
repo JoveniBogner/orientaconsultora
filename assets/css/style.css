@@ -255,15 +255,21 @@ body{
 
 .founder-card{
     background:white;
-    border:1px solid #e8e8e8;
-    border-radius:12px;
+    border:1px solid #ececec;
+    border-radius:14px;
     overflow:hidden;
+    box-shadow:0 4px 20px rgba(0,0,0,.05);
+    transition:.3s;
+}
+
+.founder-card:hover{
+    transform:translateY(-5px);
 }
 
 .founder-card img{
     width:100%;
-    height:380px;
-    object-fit:cover;
+    height:auto;
+    display:block;
 }
 
 .founder-card h3{
@@ -274,6 +280,23 @@ body{
 .founder-card ul{
     padding:0 20px 25px 40px;
 }
+
+.founder-content{
+    padding:30px;
+}
+
+.founder-content p{
+    margin-bottom:15px;
+}
+
+.cargo{
+    color:#a7c53a;
+    font-weight:600;
+    display:block;
+    margin-bottom:20px;
+}
+
+
 
 /* INSTAGRAM */
 
@@ -676,3 +699,116 @@ body{
     font-weight:600;
     line-height:1.4;
 }
+
+.page-banner{
+    background:#f5f7fb;
+    padding:100px 0;
+    text-align:center;
+}
+
+.page-banner h1{
+    color:#062b5b;
+    max-width:900px;
+    margin:15px auto;
+}
+
+.page-banner p{
+    max-width:700px;
+    margin:0 auto;
+}
+
+.sobre-page{
+    padding:90px 0;
+}
+
+.sobre-page h2{
+    color:#062b5b;
+    margin-bottom:25px;
+}
+
+.sobre-page p{
+    margin-bottom:18px;
+}
+
+.mvv-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.mvv-card{
+    background:#fff;
+    border:1px solid #ececec;
+    border-radius:14px;
+    padding:30px;
+}
+
+.mvv-card h3{
+    color:#062b5b;
+    margin-bottom:15px;
+}
+
+.mvv-card ul{
+    padding-left:20px;
+}
+
+.mvv-card li{
+    margin-bottom:8px;
+}
+
+.fundadoras{
+    padding:90px 0;
+}
+
+.cargo{
+    color:#a7c53a;
+    font-weight:600;
+    display:block;
+    margin-bottom:15px;
+}
+
+.frase-final{
+    background:#062b5b;
+    color:white;
+    padding:90px 0;
+    text-align:center;
+}
+
+.frase-final blockquote{
+    font-size:1.6rem;
+    font-weight:300;
+    max-width:900px;
+    margin:auto;
+    line-height:1.7;
+}
+
+@media(max-width:992px){
+
+    .mvv-grid{
+        grid-template-columns:1fr;
+    }
+
+}
+.menu a.active{
+    color:#a7c53a;
+    font-weight:600;
+}
+.titulo-verde{
+    color:#a7c53a;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    display:block;
+    margin-bottom:10px;
+}
+.section-title{
+    text-align:center;
+    max-width:900px;
+    margin:0 auto 60px;
+}
+
+.section-title p{
+    margin-top:15px;
+}
+
+
