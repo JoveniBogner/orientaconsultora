@@ -810,5 +810,77 @@ body{
 .section-title p{
     margin-top:15px;
 }
+.hero-sobre{
 
+    padding:90px 0;
+    background:#f5f7fb;
+
+}
+
+.hero-sobre-grid{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+
+}
+
+.hero-sobre-grid img{
+
+    width:100%;
+    border-radius:20px;
+
+}
+
+.hero-sobre h1{
+
+    color:#062b5b;
+    margin:15px 0;
+
+}
+
+.sobre-orienta{
+
+    padding:90px 0;
+
+}
+
+.sobre-grid{
+
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:60px;
+    align-items:center;
+
+}
+
+.destaque-sobre{
+
+    background:#062b5b;
+    color:white;
+    border-radius:20px;
+    padding:40px;
+
+}
+
+.destaque-sobre h3{
+
+    margin-bottom:20px;
+
+}
+
+.transicao-fundadoras{
+
+    text-align:center;
+    padding:50px 0;
+
+}
+
+.transicao-fundadoras h2{
+
+    color:#062b5b;
+    margin-bottom:15px;
+
+}
 
