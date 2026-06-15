@@ -884,3 +884,65 @@ body{
 
 }
 
+.contato-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    margin-top:50px;
+}
+
+.contato-card{
+    background:white;
+    border:1px solid #ececec;
+    border-radius:14px;
+    padding:30px;
+}
+
+.contato-card h3{
+    color:#062b5b;
+    margin-bottom:15px;
+}
+
+.formulario-contato{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea,
+.formulario-contato select{
+    padding:14px;
+    border:1px solid #dcdcdc;
+    border-radius:8px;
+    font-family:'Poppins',sans-serif;
+}
+
+.formulario-contato textarea{
+    min-height:140px;
+    resize:vertical;
+}
+
+.whatsapp-botoes{
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+.btn-whatsapp{
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    padding:14px 24px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+@media(max-width:768px){
+
+    .contato-grid{
+        grid-template-columns:1fr;
+    }
+
+}
